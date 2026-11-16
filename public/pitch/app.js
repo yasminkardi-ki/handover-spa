@@ -222,7 +222,7 @@
       shotText(false);
       stImg.classList.remove("fade");
     }, 180);
-    stUrl.textContent = "spa-ai-governance-kardi.vercel.app/" + s.url;
+    stUrl.textContent = "spa-ai-governance-training-studio.com/" + s.url;
     shotText(true);
   });
 
