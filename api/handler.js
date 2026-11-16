@@ -1,4 +1,4 @@
-// Power Academy | AI Learning Studio — trainer API (Vercel Node function)
+// Power Academy | SPA AI Governance KARDI — trainer API (Vercel Node function)
 // Trainer content is only returned after a server-checked sign-in.
 // Learner workspaces are kept in the participant's own browser (see public/local-api.js).
 import crypto from "node:crypto";

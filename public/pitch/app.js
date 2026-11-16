@@ -187,7 +187,7 @@
       li: ["8 Fallkarten und 2 Rollensimulationen aus Energietechnik und Engineering.", "Alle Fälle sind synthetisch, es werden keine Kundendaten verwendet.", "Jeder Fall endet mit einer Referenzlösung zum Abgleich."] },
     { img: "toolkit.jpg", url: "#/toolkit", alt: "Entscheidungswerkzeuge mit Matrix aus acht Kriterien", h: "Werkzeuge, die bleiben",
       li: ["Entscheidungsmatrix mit acht Kriterien: Ein offenes Pflichtkriterium blockiert jede Empfehlung.", "Entscheidungsprotokoll macht Begründungen nachvollziehbar.", "Toolklassen helfen, Werkzeuge richtig einzuordnen."] },
-    { img: "home.jpg", url: "#/", alt: "Überblick des AI Learning Studio mit Lernpfad über drei Tage", h: "Ein Lernpfad über drei Tage",
+    { img: "home.jpg", url: "#/", alt: "Überblick des SPA AI Governance KARDI mit Lernpfad über drei Tage", h: "Ein Lernpfad über drei Tage",
       li: ["Lernpfad, Fallstudio, Werkzeuge, Workbook und Ressourcen an einem Ort.", "Funktioniert im Raum und online, auf Laptop, Tablet und Smartphone.", "Geschützter Trainerbereich mit Leitfäden, Folien und gemeinsamer Ablage."] }
   ];
   shots.forEach((s) => { const i = new Image(); i.src = "/pitch/assets/" + s.img; });
@@ -198,7 +198,7 @@
       li: ["8 case cards and 2 role simulations from energy technology and engineering.", "All cases are synthetic; no customer data is used.", "Every case ends with a reference solution for comparison."] },
     { alt: "Decision tools with an eight-criteria matrix", h: "Tools that stay",
       li: ["Decision matrix with eight criteria: one open mandatory criterion blocks any recommendation.", "The decision log makes reasoning traceable.", "Tool classes help to place tools correctly."] },
-    { alt: "AI Learning Studio overview with a three-day learning path", h: "One learning path over three days",
+    { alt: "SPA AI Governance KARDI overview with a three-day learning path", h: "One learning path over three days",
       li: ["Learning path, case studio, tools, workbook and resources in one place.", "Works in the room and online, on laptop, tablet and smartphone.", "Protected trainer area with guides, slides and shared storage."] }
   ];
   const stImg = $("#st-img"), stUrl = $("#st-url"), stText = $("#st-text");
@@ -206,8 +206,8 @@
   function shotText(animate) {
     const s = shots[shotIdx], e = shotsEn[shotIdx];
     const h = T(s.h, e.h), li = lang === "en" ? e.li : s.li;
-    stImg.alt = T(s.alt + " im AI Learning Studio", e.alt + " in the AI Learning Studio");
-    stImg.setAttribute("data-de-alt", s.alt + " im AI Learning Studio");
+    stImg.alt = T(s.alt + " im SPA AI Governance KARDI", e.alt + " in the SPA AI Governance KARDI");
+    stImg.setAttribute("data-de-alt", s.alt + " im SPA AI Governance KARDI");
     stText.innerHTML = "<h3>" + h + "</h3><ul>" + li.map((l) => "<li>" + l + "</li>").join("") + "</ul>";
     if (animate) swap(stText);
   }
@@ -222,7 +222,7 @@
       shotText(false);
       stImg.classList.remove("fade");
     }, 180);
-    stUrl.textContent = "power-academy-ai-learning-studio-2.vercel.app/" + s.url;
+    stUrl.textContent = "spa-ai-governance-kardi.vercel.app/" + s.url;
     shotText(true);
   });
 

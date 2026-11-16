@@ -1,4 +1,4 @@
-// Local learner API for Power Academy | AI Learning Studio.
+// Local learner API for Power Academy | SPA AI Governance KARDI.
 // Learner workspaces stay private in this browser (localStorage); nothing is sent to a server.
 // Trainer requests pass through to the protected server API.
 (function () {
@@ -19,7 +19,7 @@
     return ws && typeof ws === "object" && Array.isArray(ws.completed) && ws.notes && typeof ws.notes === "object" && ws.matrix && typeof ws.matrix === "object";
   }
   function workbook(ws) {
-    var md = "# My KI-PA-A+ workbook\n\nPower Academy | AI Learning Studio · exported " + new Date().toLocaleString("en-GB") + "\n\n";
+    var md = "# My KI-PA-A+ workbook\n\nPower Academy | SPA AI Governance KARDI · exported " + new Date().toLocaleString("en-GB") + "\n\n";
     md += "Completed blocks: " + (ws.completed.length ? ws.completed.join(", ") : "none yet") + "\n\n";
     var keys = Object.keys(ws.notes).filter(function (k) { return String(ws.notes[k] || "").trim(); }).sort();
     md += "## Notes and responses\n\n";
@@ -47,7 +47,7 @@
     var logo = '<svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#5FC3C7" stroke-width="2.5" aria-hidden="true"><rect x="3" y="3" width="26" height="26"/><path d="M3 14h11V3"/></svg>';
     var done = ws.completed.length ? ws.completed.map(esc).join(", ") : "none yet";
     var h = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My KI-PA-A+ workbook</title><style>' + css + '</style></head><body><main class="page">';
-    h += '<section class="cover"><div class="brand">' + logo + '<div>Power Academy<small>AI Learning Studio</small></div></div><p class="k">KI-PA-A+ · My workbook</p><h1>My saved workbook</h1><p class="meta">Exported ' + esc(new Date().toLocaleString("en-GB")) + ' · Completed blocks: ' + done + '</p></section>';
+    h += '<section class="cover"><div class="brand">' + logo + '<div>Power Academy<small>SPA AI Governance KARDI</small></div></div><p class="k">KI-PA-A+ · My workbook</p><h1>My saved workbook</h1><p class="meta">Exported ' + esc(new Date().toLocaleString("en-GB")) + ' · Completed blocks: ' + done + '</p></section>';
     h += '<div class="bar"><button onclick="window.print()">Print or save as PDF</button></div>';
     var keys = Object.keys(ws.notes).filter(function (k) { return String(ws.notes[k] || "").trim(); }).sort();
     h += '<h2>Notes and responses</h2>';

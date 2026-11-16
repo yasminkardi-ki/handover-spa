@@ -1,4 +1,4 @@
-// DE/EN language layer for Power Academy | AI Learning Studio.
+// DE/EN language layer for Power Academy | SPA AI Governance KARDI.
 // English is the source language. German translations come from i18n-de.js (window.__PA_DE).
 // The layer translates rendered text and a few attributes in place and can switch back without reload.
 (function () {

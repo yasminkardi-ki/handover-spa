@@ -144,7 +144,7 @@ window.PITCH_EN = {
 "Der Unterschied zeigt sich": "The difference shows",
 "am nächsten Arbeitstag.": "on the next working day.",
 "Nicht in der Teilnahmebescheinigung, sondern in der nächsten KI-Antwort, die jemand prüft, bevor sie weitergeht.": "Not in the certificate of attendance, but in the next AI answer someone checks before passing it on.",
-"AI Learning Studio öffnen ↗": "Open the AI Learning Studio ↗",
+"SPA AI Governance KARDI öffnen ↗": "Open the SPA AI Governance KARDI ↗",
 "Handout (PDF)": "Handout (PDF, German)",
 "Präsentation (PPTX)": "Slides (PPTX, German)",
 "KI-PA-A+ AI Literacy & Governance · Programmkonzept Yasmin Kardi · Stand 26.10.2026": "KI-PA-A+ AI Literacy & Governance · Programme concept Yasmin Kardi · As of 26 Oct 2026",
@@ -158,7 +158,7 @@ window.PITCH_EN = {
 "Format wählen": "Choose format",
 "Sechs Phasen: Abrufen 4, Anstoßen 6, Erklären 10, Anwenden 15, Abgleichen 6, Sichern 4 Minuten": "Six phases: Recall 4, Prompt 6, Explain 10, Apply 15, Compare 6, Secure 4 minutes",
 "Schematisch: überwiegend Vortrag, am Ende Fragen": "Schematic: mostly lecture, questions at the end",
-"Bereiche des AI Learning Studio": "Areas of the AI Learning Studio",
+"Bereiche des SPA AI Governance KARDI": "Areas of the SPA AI Governance KARDI",
 "Perspektive wählen": "Choose perspective",
 "Schritte": "Steps",
 "Sprache": "Language"
